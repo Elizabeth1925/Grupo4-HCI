@@ -78,6 +78,10 @@
         <main class="py-4">
             @yield('content')
         </main>
+
+        <footer class="text-center py-4 text-muted mt-auto">
+            <small>Usability Test Dashboard &copy; {{ date('Y') }} - Grupo 4 HCI</small>
+        </footer>
     </div>
 </body>
 </html>
